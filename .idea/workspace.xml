@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="tp3-elbouaamri:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82204e46-b7de-49a8-892b-92a7674bf0af" name="Changes" comment="j'ajoute les class pour Llm">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="82204e46-b7de-49a8-892b-92a7674bf0af" name="Changes" comment="j'ai fait une modification je change une classe par une interface et d'autre par record">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/resources/GuideApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/resources/GuideTouristiqueResource.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/llm/GuideTouristique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/llm/GuideTouristique.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/llm/InfoTouristique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/llm/InfosTouristiques.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/llm/LlmClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ma/emsi/elbouaamri/tp3elbouaamri/llm/LlmClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,6 +44,13 @@
     "accountId": "7e5aca18-a6a1-458a-9b73-51700cc6ced7"
   }
 }]]></component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -63,9 +72,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven.tp3-elbouaamri [clean,install].executor": "Run",
+    "Maven.tp3-elbouaamri [clean,package].executor": "Run",
     "Maven.tp3-elbouaamri [clean].executor": "Run",
     "Maven.tp3-elbouaamri [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Payara Server.Payara 6.2025.10.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -90,6 +101,7 @@
       <command value="mvn clean" />
       <command value="mvn install" />
       <command value="mvn clean install" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunManager">
@@ -111,6 +123,21 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="9009" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -134,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762202984926</updated>
-      <workItem from="1762202986197" duration="2039000" />
+      <workItem from="1762202986197" duration="5221000" />
     </task>
     <task id="LOCAL-00001" summary="ma premier commit">
       <option name="closed" value="true" />
@@ -152,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762203559379</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="j'ai fait une modification je change une classe par une interface et d'autre par record">
+      <option name="closed" value="true" />
+      <created>1762205230301</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762205230301</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ma premier commit" />
     <MESSAGE value="j'ajoute les class pour Llm" />
-    <option name="LAST_COMMIT_MESSAGE" value="j'ajoute les class pour Llm" />
+    <MESSAGE value="j'ai fait une modification je change une classe par une interface et d'autre par record" />
+    <option name="LAST_COMMIT_MESSAGE" value="j'ai fait une modification je change une classe par une interface et d'autre par record" />
   </component>
 </project>
