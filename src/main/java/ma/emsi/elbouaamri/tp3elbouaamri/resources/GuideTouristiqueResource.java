@@ -21,4 +21,4 @@ public class GuideTouristiqueResource {
         InfosTouristiques reponse = llm.ask(lieu, nb);
         return Response.ok(reponse).build();    }
 }
-
+// bonjour mr Grin je fais ça par ce que j'ai le message du commite n'est pas bien modifié
