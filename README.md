@@ -8,7 +8,7 @@ Pour diversifier le projet, j’ai imaginé un scénario différent : l’applic
 qui renvoie, au format JSON, une liste d’activités intéressantes et le budget moyen nécessaire pour les réaliser. L’utilisateur peut choisir combien d’activités il souhaite obtenir en utilisant le paramètre ?nb=.
 
 Exemple de requête :
-http://localhost:8080/tp3-activites-1.0-SNAPSHOT/api/activites/ville/Lyon?nb=5
+http://localhost:8080/tp3-elbouaamri-1.0-SNAPSHOT/api/guide/lieu/Paris?nb=3
 
 Exemple de réponse JSON :
 
